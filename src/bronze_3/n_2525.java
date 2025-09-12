@@ -10,16 +10,11 @@ public class n_2525 {
 		int h = sc.nextInt();
 		int m = sc.nextInt();
 		int n = sc.nextInt();
-		
-		int a = m+n;
-		
-		if (a>60) {
-			h++;	
-			a -= 60;
-			if( h>24)
-				h -= 24;
-			}
-		System.out.print(h +" "+ a);
-	}
 
+        int total = h*60+m+n;
+        int h = total/60&24;
+        int m = total%60;
+
+        System.out.printf(h+" "+m);
+    }
 }
