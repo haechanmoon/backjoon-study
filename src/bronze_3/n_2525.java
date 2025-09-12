@@ -12,8 +12,8 @@ public class n_2525 {
 		int n = sc.nextInt();
 
         int total = h*60+m+n;
-        int h = total/60&24;
-        int m = total%60;
+        h = total/60&24;
+        m = total%60;
 
         System.out.printf(h+" "+m);
     }
