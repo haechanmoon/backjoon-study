@@ -53,7 +53,6 @@ public class n_1259 {
             } else {
                 System.out.println("no");
             }
-
         }
     }
 }
