@@ -14,7 +14,7 @@ class ageName{
 }
 
 
-public class Main {
+public class n_10814 {
 
 
     public static void main(String[] args) {
