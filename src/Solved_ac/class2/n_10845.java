@@ -27,6 +27,7 @@ public class n_10845 {
                 case "pop":
                     if(q.isEmpty()){
                         sb.append(-1).append("\n");
+                        break;
                     }else {
                         sb.append(q.poll()).append("\n");
                     }
@@ -47,6 +48,7 @@ public class n_10845 {
                 case "front":
                     if (q.isEmpty()) {
                         sb.append(-1).append("\n");
+                        break;
                     }
                     sb.append(q.peek()).append("\n");
 
@@ -55,6 +57,7 @@ public class n_10845 {
                 case "back":
                     if (q.isEmpty()) {
                         sb.append(-1).append("\n");
+                        break;
                     }
                     sb.append(last).append("\n");
                     break;
