@@ -18,7 +18,7 @@
 
 ## 🚀 진행 상황 (Progress)
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=haechanmoon)](https://solved.ac/haechanmoon)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ansgocks1216)](https://solved.ac/ansgocks1216)
 
 위 뱃지는 [solved.ac](https://solved.ac) 프로필과 연동되어 자동으로 현재 티어와 푼 문제 수를 보여줍니다.
 
