@@ -9,7 +9,6 @@
 ## 🔥 목표 (Goals)
 
 -   **매일 최소 1개 이상 커밋하기 (1 Day 1 Commit)**
--   **현재 티어**: <font color="gray">**Silver V**</font> 🥈
 -   **최종 목표**: <font color="#27e595">**Platinum I**</font> 💎
 
 하루하루 꾸준히 쌓아가는 기록이 플래티넘 티어를 달성하는 밑거름이 될 것이라 믿습니다.
