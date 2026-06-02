@@ -48,7 +48,6 @@ public class n_11724 {
             }
         }
         System.out.println(count);
-
     }
 
     private static void dfs(int node) {
@@ -58,7 +57,5 @@ public class n_11724 {
                 dfs(next);
             }
         }
-
     }
-
 }
