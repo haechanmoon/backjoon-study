@@ -6,6 +6,7 @@ public class n_2023 {
     static int N;
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         N = Integer.parseInt(sc.nextLine());
         dfs(2, 1);
