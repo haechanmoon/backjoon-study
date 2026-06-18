@@ -15,6 +15,7 @@ import java.util.StringTokenizer;
 
 public class n_1260 {
 
+
     private static int N, M, V;
     private static boolean[] visited;
     private static ArrayList<Integer>[] graph;
