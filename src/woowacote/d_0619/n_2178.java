@@ -44,7 +44,7 @@ public class n_2178 {
         que.offer(new int[]{i, j});
         result = Math.min(result, value);
         visited[i][j] = true;
-        if ( ==N && y == M){
+        if (i == N && j == M) {
             return;
         }
 
