@@ -28,8 +28,7 @@ public class n_2178 {
         board = new int[N][M];
         visited = new boolean[N][M];
         for (int i = 0; i < N; i++) {
-            st = new StringTokenizer(br.readLine());
-            String line = st.nextToken();
+            String line = br.readLine();
             for (int j = 0; j < M; j++) {
                 board[i][j] = Integer.parseInt(line.substring(j, j + 1));
             }
@@ -39,22 +38,29 @@ public class n_2178 {
         System.out.println(board[N - 1][M - 1]);
     }
 
-    private static void bfs(int i, int j) {
+    private static void bfs(int startX, int startY) {
         Queue<int[]> que = new LinkedList<>();
-        que.offer(new int[]{i, j});
-        result = Math.min(result, value);
-        visited[i][j] = true;
-        if (i == N && j == M) {
-            return;
-        }
+        que.add(new int[]{startX, startY});
+        visited[startX][startY] = true;
+        while (!que.isEmpty()) {
+            int[] now = que.poll();
+            int nowX = now[0];
+            int nowY = now[1];
 
-        Queue<int[][]> que = new LinkedList<>();
-        for (int i = 0; i < 4; i++) {
-            if (board[x + dx[i]][y + dy[i]] == 1) {
-                que.add()
+            for (int i = 0; i < 4; i++) {
+                int nextX = nowX + dx[i];
+                int nextY = nowY + dy[i];
+
+                if (nextX < 0 || nextX >= N || nextY < 0 || nextY >= M) {
+                    continue;
+                }
+                if (board[nextX][nextY] == 1 && !visited[nextX][nextY]) {
+                    visited[nextX][nextY] = true;
+                    board[nextX][nextY] = board[nowX][nowY] + 1;
+                    que.add(new int[]{nextX, nextY});
+                }
             }
         }
-
     }
 }
 
