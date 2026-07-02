@@ -27,10 +27,8 @@ import java.util.StringTokenizer;
 
 public class n_1931 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(br.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-
-        // time[i][0]은 시작 시간, time[i][1]은 종료 시간
         int[][] time = new int[N][2];
 
         for (int i = 0; i < N; i++) {
@@ -38,8 +36,6 @@ public class n_1931 {
             time[i][0] = Integer.parseInt(st.nextToken());
             time[i][1] = Integer.parseInt(st.nextToken());
         }
-
-        // 정렬 기준 설정
         Arrays.sort(time, (o1, o2) -> {
             if (o1[1] == o2[1]) {
                 return o1[0] - o2[0];
