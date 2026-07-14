@@ -35,7 +35,6 @@ public class n_1707 {
             visited = new boolean[node + 1];
             nodes = new int[node + 1];
             isEven = true;
-            sb =
             for (int j = 0; j < edge; j++) {
                 st = new StringTokenizer(br.readLine());
                 int u = Integer.parseInt(st.nextToken());
