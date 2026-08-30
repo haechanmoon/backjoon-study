@@ -24,7 +24,7 @@ public class n_11403 {
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
                     if (graph[i][k] == 1 && graph[k][j] == 1) {
-                        graph[i][j] = 0;
+                        graph[i][j] = 1;
                     }
                 }
             }
