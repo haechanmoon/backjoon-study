@@ -57,4 +57,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0217-contains-duplicate](https://github.com/haechanmoon/backjoon-study/tree/main/0217-contains-duplicate/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0125-valid-palindrome](https://github.com/haechanmoon/backjoon-study/tree/main/0125-valid-palindrome/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0125-valid-palindrome](https://github.com/haechanmoon/backjoon-study/tree/main/0125-valid-palindrome/) | Easy |
 <!---LeetCode Topics End-->
